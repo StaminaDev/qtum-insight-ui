@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" ng-app="insight" ng-csp>
+	<head>
+	<base href="/" />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="fragment" content="!">
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="quantums, transactions, blocks, address, block chain, best block, mining difficulty, hash serialized">
+		<meta name="description" content="Qtum Blockexplorer. Check your Qtum transactions and blocks">
+		<link rel="stylesheet" type="text/css" href="css/style.min.css" />
+                <link rel="stylesheet" type="text/css" href="css/guarda.css?v=1.3" />
+		<link type="image/png"  href="./img/icons/icon.png" rel="shortcut icon" />
+		
+		<title>QTUM Explorer</title>
+	</head>
+	<body ng-cloak class="ng-cloak">
+
+		<div class="wrapper wrapper-with-footer">
+			<header class="header fixed" 
+					ng-include
+					src="'views/includes/header.html'" 
+					role='navigation'
+					ng-controller="HeaderController as HC">
+			</header>
+			<section class="content" ng-view ng-controller="CurrencyController as CC">
+			</section>
+		</div>
+		<footer class="footer" style="margin-top: 0px;">
+			<div class="box">
+				<div class="copy" translate>
+					<span class="languages" style=";">
+        	  [
+	          <a href="http://qtumblockexplorer.com">qtumblockexplorer.com</a>
+          	  ]
+        	</span>
+        	&nbsp;
+        	      	
+                <p style="padding-top: 10px;">Donate QTUM: Qcseh26t4MXMTQKWvgse2UTQi4rUzPe5dd</p>
+                 </div>
+      <div style="margin-top: -45px;">
+      <a class="m10v pull-right" href="mailto:qtumblockexplorer@gmail.com" ">qtumblockexplorer@gmail.com</a><br><br>
+     <a class="pull-right" href="https://coincodex.com/crypto/qtum/" target="_blank">https://coincodex.com/crypto/qtum/</a>
+      </div>
+				</div>
+			</div>
+		</footer>
+	
+		<script data-cfasync="false">window.apiPrefix = '/api';</script>
+		<script data-cfasync="false">window.socketUrl = null;</script>
+		<script data-cfasync="false">window.current_network = null;</script>
+		<script data-cfasync="false">window.nodemapLink = '';</script>
+		<script data-cfasync="false" src="/socket.io/socket.io.js"></script>
+		<script data-cfasync="false" src="js/vendors.min.js"></script>
+		<script data-cfasync="false" src="js/angularjs-all.min.js"></script>
+		<script data-cfasync="false" src="js/main.min.js?v={{version}}"></script>
+	</body>
+</html>

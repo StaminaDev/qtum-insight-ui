@@ -1,0 +1,17 @@
+.coin-link {
+ font-size:13px !important;
+ margin-top: -25px;
+}
+
+
+
+#links_container {
+        float: none !important;
+}
+
+.powered__title {
+    margin-top: 60px !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    padding-bottom: 15px !important;
+}

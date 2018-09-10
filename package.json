@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/qtumproject/qtum-explorer.git#master",
+      "/home/qtum/insight"
+    ]
+  ],
+  "_from": "git+https://github.com/qtumproject/qtum-explorer.git#master",
+  "_id": "qtum-explorer@git+https://github.com/qtumproject/qtum-explorer.git#7821a85aa2a8aeae3d1c832427a2d14e46916466",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/qtum-explorer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/qtumproject/qtum-explorer.git#master",
+    "rawSpec": "git+https://github.com/qtumproject/qtum-explorer.git#master",
+    "saveSpec": "git+https://github.com/qtumproject/qtum-explorer.git#master",
+    "fetchSpec": "https://github.com/qtumproject/qtum-explorer.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/qtumproject/qtum-explorer.git#7821a85aa2a8aeae3d1c832427a2d14e46916466",
+  "_spec": "git+https://github.com/qtumproject/qtum-explorer.git#master",
+  "_where": "/home/qtum/insight",
+  "bugs": {
+    "url": "https://github.com/qtumproject/qtum-explorer/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the qtum network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
+  },
+  "homepage": "https://github.com/qtumproject/qtum-explorer",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "qtum",
+    "qtumcore",
+    "front-end"
+  ],
+  "license": "MIT",
+  "name": "qtum-explorer",
+  "qtumcoreNode": "qtumcore-node",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qtumproject/qtum-explorer.git"
+  },
+  "version": "0.11.3"
+}
